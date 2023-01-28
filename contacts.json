@@ -1,0 +1,23 @@
+{
+	"contact1": {
+		"firstName": "Bruce",
+		"lastName": "Wayne",
+		"email": "bwayne@wayneindustries.com",
+		"favoriteColor": "black",
+		"birthday": "07/21/83"
+	},
+	"contact2": {
+		"firstName": "Tony",
+		"lastName": "Stark",
+		"email": "tstark@starkindustries.com",
+		"favoriteColor": "red",
+		"birthday": "05/25/77"
+	},
+	"contact3": {
+		"firstName": "Peter",
+		"lastName": "Parker",
+		"email": "pparker@avengers.com",
+		"favoriteColor": "blue",
+		"birthday": "02/02/94"
+	}
+}
