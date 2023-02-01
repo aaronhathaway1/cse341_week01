@@ -1,0 +1,82 @@
+#***************************
+# LOCALHOST
+#***************************
+
+### Get all contacts
+GET http://localhost:8080/contacts
+
+
+### Get contact by id
+GET http://localhost:8080/contacts/63d01487d9f1f6b924fca5f5
+
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Madi",
+    "lastName":"Hathaway",
+    "email":"mburt17@gmail.com",
+    "favoriteColor":"Blue",
+    "birthday":"08/19/1996"
+}
+### 63d9bad104d0188d5a2305f7
+
+
+### PUT contact (Update)
+PUT http://localhost:8080/contacts/63d01487d9f1f6b924fca5f5 HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Bruce",
+  "lastName": "Wayne",
+  "email": "bwayne@wayneindustries.com",
+  "favoriteColor": "Black",
+  "birthday": "07/21/83"
+}
+
+### DELETE contact
+DELETE http://localhost:8080/contacts/63d9e6c304d0188d5a2305f9 HTTP/1.1
+
+
+#***************************
+# PRODUCTION Deploy
+#***************************
+
+### Get all contacts
+GET https://abhathaway-cse341.onrender.com/contacts
+
+
+### Get contact by id
+GET https://abhathaway-cse341.onrender.com/contacts/63d01487d9f1f6b924fca5f5
+
+
+### Create contact
+POST https://abhathaway-cse341.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Madi",
+    "lastName":"Hathaway",
+    "email":"mburt17@gmail.com",
+    "favoriteColor":"Blue",
+    "birthday":"08/19/1996",
+}
+
+
+### PUT contact
+PUT https://abhathaway-cse341.onrender.com/contacts/63d014b2d9f1f6b924fca5f6 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Tony",
+    "lastName":"Stark",
+    "email":"tstarks@gmail.com",
+    "favoriteColor":"Red",
+    "birthday":"05/25/77"
+}
+
+
+### DELETE contact
+DELETE https://abhathaway-cse341.onrender.com/contacts/63d9e7dc04d0188d5a2305fa HTTP/1.1
