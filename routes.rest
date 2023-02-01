@@ -73,7 +73,7 @@ content-type: application/json
     "firstName":"Tony",
     "lastName":"Stark",
     "email":"tstarks@gmail.com",
-    "favoriteColor":"Red",
+    "favoriteColor":"Yellow",
     "birthday":"05/25/77"
 }
 
