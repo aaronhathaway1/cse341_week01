@@ -32,12 +32,12 @@ content-type: application/json
   "firstName": "Bruce",
   "lastName": "Wayne",
   "email": "bwayne@wayneindustries.com",
-  "favoriteColor": "Black",
+  "favoriteColor": "Grey",
   "birthday": "07/21/83"
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/63d9e6c304d0188d5a2305f9 HTTP/1.1
+DELETE http://localhost:8080/contacts/63d9ea1104d0188d5a2305fb HTTP/1.1
 
 
 #***************************
@@ -61,7 +61,7 @@ content-type: application/json
     "lastName":"Hathaway",
     "email":"mburt17@gmail.com",
     "favoriteColor":"Blue",
-    "birthday":"08/19/1996",
+    "birthday":"08/19/1996"
 }
 
 
@@ -79,4 +79,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://abhathaway-cse341.onrender.com/contacts/63d9e7dc04d0188d5a2305fa HTTP/1.1
+DELETE https://abhathaway-cse341.onrender.com/contacts/63d9ea6c4a23b0362f2b7b98 HTTP/1.1
